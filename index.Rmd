@@ -18,3 +18,5 @@ The chosen method was the **Random Forest**, since this was a classification pro
 
 The final model showed an **accuracy** of 0.9778 and a **Kappa** of 0.9719, which I deemed to be a good anough for this assigment and the number of instances that should be predicted.
 
+In the end, this model presented an estimate for the out-of-sample error of **1.79%**
+
