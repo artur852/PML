@@ -134,6 +134,7 @@ $(document).ready(function () {
 <p>The original data contained 160 variables that could be used for prediction. Some of these were very straight forward to remove like the name and the timestamps. Taking the information from the codebook and discussions in the forum, I found out that some of the variables were summary statistics which had a lot of NA values and so I also cut those from the model. Those were prefixed by: “var_”, “stddev_”, “avg_”, “max_”, “min_”, “amplitude_”, “kurtosis_” and “skewness_”.</p>
 <p>The chosen method was the <strong>Random Forest</strong>, since this was a classification problem with more than two classes, and this algorithm was well exemplified during the lectures and applying 5-fold cross-validation during training. For pre-processing, I used “PCA” and removed columns with near-zero variance.</p>
 <p>The final model showed an <strong>accuracy</strong> of 0.9778 and a <strong>Kappa</strong> of 0.9719, which I deemed to be a good anough for this assigment and the number of instances that should be predicted.</p>
+<p>In the end, this model presented an estimate for the out-of-sample error of <strong>1.79%</strong></p>
 </div>
 
 
